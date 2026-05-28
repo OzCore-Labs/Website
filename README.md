@@ -5,7 +5,7 @@
 
 **AI-powered geospatial intelligence for government and enterprise.**
 
-[Website](https://ozcorelabs.com) · [Contact](https://ozcorelabs.com/#contact) · [LinkedIn](#)
+[Website](https://ozcorelabs.com) · [Contact](https://ozcorelabs.com/#contact) · [LinkedIn](https://www.linkedin.com/company/111654251)
 
 </div>
 
