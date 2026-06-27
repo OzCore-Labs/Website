@@ -378,6 +378,55 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Stats Bar - Original Metrics with Added Credibility Cards */}
+        <motion.section
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-50px" }}
+          variants={staggerContainer}
+          className="scan-lines section-fade-overlay relative bg-zinc-900/30 border-y border-white/5 py-16 md:py-20"
+        >
+          <div className="max-w-7xl mx-auto px-5 md:px-6">
+            <div className="auto-carousel flex overflow-x-auto snap-x snap-mandatory gap-6 pb-4 -mx-5 px-5 scrollbar-hide md:grid md:grid-cols-4 md:gap-12 md:mx-0 md:px-0 md:pb-0 text-center">
+              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
+                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">47K+</span>
+                <span className="text-sm text-zinc-400">Square km of terrain analyzed</span>
+              </motion.div>
+              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
+                <span className="text-sm font-semibold text-[#00D2A0] mb-2">7+ Years Geospatial Experience</span>
+                <span className="text-sm text-zinc-400">Proven expertise</span>
+              </motion.div>
+              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
+                <span className="text-sm font-semibold text-[#00D2A0] mb-2">Security/Infrastructure & Climate</span>
+                <span className="text-sm text-zinc-400">Critical sectors</span>
+              </motion.div>
+              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
+                <span className="text-sm font-semibold text-[#00D2A0] mb-2">1 Active GeoAI System</span>
+                <span className="text-sm text-zinc-400">Advanced technology</span>
+              </motion.div>
+              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
+                <span className="text-sm font-semibold text-[#00D2A0] mb-2">International Project Delivery</span>
+                <span className="text-sm text-zinc-400">Global clients</span>
+              </motion.div>
+              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
+                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">1</span>
+                <span className="text-sm text-zinc-400">Government agencies served</span>
+              </motion.div>
+              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
+                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">2</span>
+                <span className="text-sm text-zinc-400">Countries with active deployments</span>
+              </motion.div>
+              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
+                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">3x</span>
+                <span className="text-sm text-zinc-400">Faster than traditional GIS analysis</span>
+              </motion.div>
+            </div>
+          </div>
+        </motion.section>
+
+        {/* Trusted By Strip */}
+        <motion.section
+
         {/* Trusted By Strip */}
         <motion.section
           initial="hidden"
