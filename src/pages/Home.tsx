@@ -378,55 +378,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Stats Bar - Original Metrics with Added Credibility Cards */}
-        <motion.section
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-50px" }}
-          variants={staggerContainer}
-          className="scan-lines section-fade-overlay relative bg-zinc-900/30 border-y border-white/5 py-16 md:py-20"
-        >
-          <div className="max-w-7xl mx-auto px-5 md:px-6">
-            <div className="auto-carousel flex overflow-x-auto snap-x snap-mandatory gap-6 pb-4 -mx-5 px-5 scrollbar-hide md:grid md:grid-cols-4 md:gap-12 md:mx-0 md:px-0 md:pb-0 text-center">
-              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
-                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">47K+</span>
-                <span className="text-sm text-zinc-400">Square km of terrain analyzed</span>
-              </motion.div>
-              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
-                <span className="text-sm font-semibold text-[#00D2A0] mb-2">7+ Years Geospatial Experience</span>
-                <span className="text-sm text-zinc-400">Proven expertise</span>
-              </motion.div>
-              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
-                <span className="text-sm font-semibold text-[#00D2A0] mb-2">Security/Infrastructure & Climate</span>
-                <span className="text-sm text-zinc-400">Critical sectors</span>
-              </motion.div>
-              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
-                <span className="text-sm font-semibold text-[#00D2A0] mb-2">1 Active GeoAI System</span>
-                <span className="text-sm text-zinc-400">Advanced technology</span>
-              </motion.div>
-              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
-                <span className="text-sm font-semibold text-[#00D2A0] mb-2">International Project Delivery</span>
-                <span className="text-sm text-zinc-400">Global clients</span>
-              </motion.div>
-              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
-                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">1</span>
-                <span className="text-sm text-zinc-400">Government agencies served</span>
-              </motion.div>
-              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
-                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">2</span>
-                <span className="text-sm text-zinc-400">Countries with active deployments</span>
-              </motion.div>
-              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
-                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">3x</span>
-                <span className="text-sm text-zinc-400">Faster than traditional GIS analysis</span>
-              </motion.div>
-            </div>
-          </div>
-        </motion.section>
-
-        {/* Trusted By Strip */}
-        <motion.section
-
         {/* Trusted By Strip */}
         <motion.section
           initial="hidden"
@@ -456,37 +407,7 @@ export default function Home() {
             </div>
           </div>
         </motion.section>
-
-        {/* Stats Bar */}
-        <motion.section
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-50px" }}
-          variants={staggerContainer}
-          className="scan-lines section-fade-overlay relative bg-zinc-900/30 border-y border-white/5 py-16 md:py-20"
-        >
-          <div className="max-w-7xl mx-auto px-5 md:px-6">
-            <div className="auto-carousel flex overflow-x-auto snap-x snap-mandatory gap-6 pb-4 -mx-5 px-5 scrollbar-hide md:grid md:grid-cols-4 md:gap-12 md:mx-0 md:px-0 md:pb-0 text-center">
-              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center">
-                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">47K+</span>
-                <span className="text-sm text-zinc-400">Square km of terrain analyzed</span>
-              </motion.div>
-              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center">
-                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">1</span>
-                <span className="text-sm text-zinc-400">Government agencies served</span>
-              </motion.div>
-              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center">
-                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">2</span>
-                <span className="text-sm text-zinc-400">Countries with active deployments</span>
-              </motion.div>
-              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center">
-                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">3x</span>
-                <span className="text-sm text-zinc-400">Faster than traditional GIS analysis</span>
-              </motion.div>
-            </div>
-          </div>
-        </motion.section>
-
+        
         {/* Positioning */}
         <motion.section
           initial="hidden"
@@ -607,8 +528,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Featured Work */}
-        <section id="work" className="section-fade-overlay relative py-16 md:py-32 border-t border-white/5">
+        {/* Our Products */}
+        <section id="work" className="section-fade-overlay relative py-16 md:py-28 border-t border-white/5">
           <div className="max-w-7xl mx-auto px-5 md:px-6">
             <motion.h2
               initial="hidden"
@@ -617,7 +538,7 @@ export default function Home() {
               variants={fadeUp}
               className="font-display text-3xl md:text-4xl font-bold text-white tracking-tight mb-8 md:mb-16"
             >
-              <span className="label-glow inline-block">Featured Work</span>
+              <span className="label-glow inline-block">Our Products</span>
             </motion.h2>
 
             <motion.div
@@ -630,25 +551,48 @@ export default function Home() {
               <motion.a href="#" variants={fadeUp} className="snap-center shrink-0 w-[85vw] md:w-auto group cursor-pointer block">
                 <div className="aspect-[4/3] bg-zinc-900 border border-white/10 mb-6 overflow-hidden relative">
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,210,160,0.1)_0%,transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"></div>
-                  <img src="/dashboard-3.png" alt="Security Intelligence Dashboard" className="w-full h-full object-cover" />
+                  <img src="/Oscore-1.jpg" alt="SENTINEL95" className="w-full h-full object-cover" />
                 </div>
-                <h3 className="font-display text-xl font-bold text-white group-hover:text-[#00D2A0] transition-colors duration-300 mb-2">Security Intelligence Dashboard</h3>
-                <p className="text-zinc-400">Nigeria &mdash; Real-time threat mapping and resource allocation platform.</p>
+                <h3 className="font-display text-xl font-bold text-white group-hover:text-[#00D2A0] transition-colors duration-300 mb-2">SENTINEL95</h3>
+                <p className="text-zinc-400">Ai-powered Geospatial solution for insecurity monitoring, counter Route mapping and onsite crime reporting.</p>
               </motion.a>
 
               <motion.a href="#" variants={fadeUp} className="snap-center shrink-0 w-[85vw] md:w-auto group cursor-pointer block">
                 <div className="aspect-[4/3] bg-zinc-900 border border-white/10 mb-6 overflow-hidden relative">
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,210,160,0.1)_0%,transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"></div>
-                  <img src="/helpa_app3.png" alt="Proximity Based Service Platform" className="w-full h-full object-cover" />
+                  <img src="/Oscore-2.jpg" alt="HELPA" className="w-full h-full object-cover" />
                 </div>
-                <h3 className="font-display text-xl font-bold text-white group-hover:text-[#00D2A0] transition-colors duration-300 mb-2">Proximity Based Service Platform</h3>
-                <p className="text-zinc-400">Helpa Services &mdash; A Map-Centric Platform that Connects users to Nearby Artisans based on Distance, Availability, and Trust Levels.</p>
+                <h3 className="font-display text-xl font-bold text-white group-hover:text-[#00D2A0] transition-colors duration-300 mb-2">HELPA</h3>
+                <p className="text-zinc-400">A Proximity-first Platform connecting users to Trusted Artisans based on Distance, Availability, and Trust Levels.</p>
               </motion.a>
+              </motion.div>
+          </div>
+        </section>
 
+        {/* Featured Works */}
+        <section id="work" className="section-fade-overlay relative py-16 md:py-32 border-t border-white/5">
+          <div className="max-w-7xl mx-auto px-5 md:px-6">
+            <motion.h2
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, margin: "-50px" }}
+              variants={fadeUp}
+              className="font-display text-3xl md:text-4xl font-bold text-white tracking-tight mb-8 md:mb-16"
+            >
+              <span className="label-glow inline-block">Featured Works</span>
+            </motion.h2>
+
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, margin: "-50px" }}
+              variants={staggerContainer}
+              className="auto-carousel flex overflow-x-auto snap-x snap-mandatory gap-6 pb-4 -mx-5 px-5 scrollbar-hide md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-16 md:mx-0 md:px-0 md:pb-0"
+            >
               <motion.a href="#" variants={fadeUp} className="snap-center shrink-0 w-[85vw] md:w-auto group cursor-pointer block">
                 <div className="aspect-[4/3] bg-zinc-900 border border-white/10 mb-6 overflow-hidden relative">
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,210,160,0.1)_0%,transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"></div>
-                  <img src="/dlc_works.jpg" alt="Inventory of trees and surfaces" className="w-full h-full object-cover" />
+                  <img src="/Oscore-5.jpg" alt="Inventory of trees and surfaces" className="w-full h-full object-cover" />
                 </div>
                 <h3 className="font-display text-xl font-bold text-white group-hover:text-[#00D2A0] transition-colors duration-300 mb-2">Inventory of Trees and Surfaces</h3>
                 <p className="text-zinc-400">City of Longueuil &mdash; Tree extraction, data management, and mapping.</p>
@@ -657,7 +601,16 @@ export default function Home() {
               <motion.a href="#" variants={fadeUp} className="snap-center shrink-0 w-[85vw] md:w-auto group cursor-pointer block">
                 <div className="aspect-[4/3] bg-zinc-900 border border-white/10 mb-6 overflow-hidden relative">
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,210,160,0.1)_0%,transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"></div>
-                  <img src="/balbao_park.png" alt="Dignitary Visit GIS Planning" className="w-full h-full object-cover" />
+                  <img src="/Oscore-3.jpg" alt="Site Plan Georeferencing & Filed Mapping" className="w-full h-full object-cover" />
+                </div>
+                <h3 className="font-display text-xl font-bold text-white group-hover:text-[#00D2A0] transition-colors duration-300 mb-2">Site Plan Georeferencing & Filed Mapping</h3>
+                <p className="text-zinc-400">DLC &mdash; Transformation of CAD site plans to Georeferenced field datasets. .</p>
+              </motion.a>
+
+              <motion.a href="#" variants={fadeUp} className="snap-center shrink-0 w-[85vw] md:w-auto group cursor-pointer block">
+                <div className="aspect-[4/3] bg-zinc-900 border border-white/10 mb-6 overflow-hidden relative">
+                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,210,160,0.1)_0%,transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"></div>
+                  <img src="/Oscore-4.jpg" alt="Dignitary Visit GIS Planning" className="w-full h-full object-cover" />
                 </div>
                 <h3 className="font-display text-xl font-bold text-white group-hover:text-[#00D2A0] transition-colors duration-300 mb-2">Dignitary Visit GIS Planning</h3>
                 <p className="text-zinc-400">San Diego &mdash; High-security spatial routing and vulnerability assessment.</p>
@@ -948,7 +901,7 @@ export default function Home() {
                   <img src="/oluwanifemi-a.jpg" alt="Oluwanifemi A." className="w-full h-full object-cover" />
                 </div>
                 <h3 className="font-display text-sm md:text-lg font-bold text-white">Oluwanifemi A.</h3>
-                <p className="text-xs md:text-sm text-[#00D2A0] mt-1">GIS Data Engineer</p>
+                <p className="text-xs md:text-sm text-[#00D2A0] mt-1">Assistant GIS Analyst</p>
               </motion.div>
               {/* Member 6 */}
               <motion.div variants={fadeUp} className="snap-center shrink-0 w-[140px] md:w-auto flex flex-col items-center text-center group">
@@ -956,7 +909,7 @@ export default function Home() {
                   <img src="/ibrahim-a.png" alt="Ibrahim A." className="w-full h-full object-cover" />
                 </div>
                 <h3 className="font-display text-sm md:text-lg font-bold text-white">Ibrahim A.</h3>
-                <p className="text-xs md:text-sm text-[#00D2A0] mt-1">Survey & GIS Analyst Assistant</p>
+                <p className="text-xs md:text-sm text-[#00D2A0] mt-1">Assistant GIS Analyst & Surveyor</p>
               </motion.div>
               {/* Member 7 */}
               <motion.div variants={fadeUp} className="snap-center shrink-0 w-[140px] md:w-auto flex flex-col items-center text-center group">
@@ -964,7 +917,7 @@ export default function Home() {
                   <img src="/oluwatobiloba.jpg" alt="Oluwatobiloba" className="w-full h-full object-cover" />
                 </div>
                 <h3 className="font-display text-sm md:text-lg font-bold text-white">Oluwatobiloba</h3>
-                <p className="text-xs md:text-sm text-[#00D2A0] mt-1">Research & Intelligence Support</p>
+                <p className="text-xs md:text-sm text-[#00D2A0] mt-1">GIS Intern</p>
               </motion.div>
               {/* Member 8 */}
               <motion.div variants={fadeUp} className="snap-center shrink-0 w-[140px] md:w-auto flex flex-col items-center text-center group">
@@ -972,11 +925,65 @@ export default function Home() {
                   <img src="/abiola-a.jpg" alt="Abiola A." className="w-full h-full object-cover" />
                 </div>
                 <h3 className="font-display text-sm md:text-lg font-bold text-white">Abiola A.</h3>
-                <p className="text-xs md:text-sm text-[#00D2A0] mt-1">Research & Intelligence Support</p>
+                <p className="text-xs md:text-sm text-[#00D2A0] mt-1">GIS Intern</p>
+              </motion.div>
+              {/* Member 9 */}
+              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[140px] md:w-auto flex flex-col items-center text-center group">
+                <div className="w-[100px] h-[100px] md:w-40 md:h-40 rounded-full bg-zinc-900 border border-white/10 overflow-hidden flex items-center justify-center mb-4 md:mb-6 group-hover:border-[#00D2A0]/50 transition-colors">
+                  <img src="/sticker.png" alt="Issac O." className="w-full h-full object-cover" />
+                </div>
+                <h3 className="font-display text-sm md:text-lg font-bold text-white">Issac O.</h3>
+                <p className="text-xs md:text-sm text-[#00D2A0] mt-1">Full Stack developer Intern</p>
               </motion.div>
             </motion.div>
           </div>
         </section>
+
+        {/* Stats Bar - Original Metrics with Added Credibility Cards */}
+        <motion.section
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-50px" }}
+          variants={staggerContainer}
+          className="scan-lines section-fade-overlay relative bg-zinc-900/30 border-y border-white/5 py-16 md:py-20"
+        >
+          <div className="max-w-7xl mx-auto px-5 md:px-6">
+            <div className="auto-carousel flex overflow-x-auto snap-x snap-mandatory gap-6 pb-4 -mx-5 px-5 scrollbar-hide md:grid md:grid-cols-4 md:gap-12 md:mx-0 md:px-0 md:pb-0 text-center">
+              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
+                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">47K+</span>
+                <span className="text-sm text-zinc-400">Square km of terrain analyzed</span>
+              </motion.div>
+              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
+                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">7+</span>
+                <span className="text-sm text-zinc-400">Years Geospatial Experience</span>
+              </motion.div>
+              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
+                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">SDG</span>
+                <span className="text-sm text-zinc-400">Critical sectors Servicing</span>
+              </motion.div>
+              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
+                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">1</span>
+                <span className="text-sm text-zinc-400">Active GeoAI Systems</span>
+              </motion.div>
+              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
+                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">1</span>
+                <span className="text-sm text-zinc-400">Global clients</span>
+              </motion.div>
+              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
+                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">1</span>
+                <span className="text-sm text-zinc-400">Government agencies served</span>
+              </motion.div>
+              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
+                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">2</span>
+                <span className="text-sm text-zinc-400">Countries with active deployments</span>
+              </motion.div>
+              <motion.div variants={fadeUp} className="snap-center shrink-0 w-[45vw] md:w-auto flex flex-col items-center gap-3">
+                <span className="text-4xl md:text-5xl font-bold text-[#00D2A0] mb-2 font-mono">100%</span>
+                <span className="text-sm text-zinc-400">Customer Satisfaction</span>
+              </motion.div>
+            </div>
+          </div>
+        </motion.section>
 
         {/* Who are you? CTA Section */}
         <motion.section

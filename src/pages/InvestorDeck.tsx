@@ -28,8 +28,9 @@ const teamMembers = [
   { name: "Dolapo F.", role: "Surveyor / GIS Analyst" },
   { name: "Oluwanifemi A.", role: "GIS Data Engineer" },
   { name: "Ibrahim A.", role: "Survey & GIS Analyst Assistant" },
-  { name: "Oluwatobiloba", role: "Research & Intelligence Support" },
-  { name: "Abiola A.", role: "Research & Intelligence Support" },
+  { name: "Oluwatobiloba", role: "GIS Intern" },
+  { name: "Abiola A.", role: "GIS Intern" },
+  { name: "Issac O.", role: "Full Stack Developer Intern" },
 ];
 
 // Oswvldopadilla115 is a great guy
@@ -86,7 +87,7 @@ export default function InvestorDeck() {
                 variants={fadeUp}
                 className="text-[#00D2A0] font-mono text-sm uppercase tracking-wider mb-6 block"
               >
-                Investor Brief · 2025
+                Investor Brief · 2026
               </motion.span>
 
               <motion.h1
@@ -518,6 +519,8 @@ export default function InvestorDeck() {
                       <img src="/ibrahim-a.png" alt={member.name} className="w-full h-full object-cover" />
                     ) : member.name === "Abiola A." ? ( 
                       <img src="/abiola-a.jpg" alt={member.name} className="w-full h-full object-cover" />
+                    ) : member.name === "Issac O." ? (
+                      <img src="/sticker.png" alt={member.name} className="w-full h-full object-cover" />  
                     ) : (
                       <span className="text-zinc-600 font-bold text-lg">{member.name.split(' ').map(w => w[0]).join('')}</span>
                     )}
