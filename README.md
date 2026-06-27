@@ -1,6 +1,10 @@
 <div align="center">
 <img width="1200" height="475" alt="0zCore Labs Banner" src="https://github.com/OzCore-Labs/Website/blob/main/public/logo.png" />
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 4229bd840df17d64ab04e117afce33c71be1d5b5
 # 0zCore Labs
 
 **AI-powered geospatial intelligence for government and enterprise.**
