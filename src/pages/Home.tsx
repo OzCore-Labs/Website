@@ -270,9 +270,11 @@ export default function Home() {
                    text-zinc-300
                    "
                   >
-                   We build GIS-powered platforms, spatial infrastructure,<br className= "block sm:hidden" />
-                  and AI-driven systems that help governments, enterprises,<br className= "block sm:hidden" />
-                   and emerging markets make better location-based decisions.
+                   We build GIS-powered platforms,<br className= "block sm:hidden" />
+                  spatial infrastructure, and AI-driven systems <br className= "block sm:hidden" />
+                  that help governments, enterprises,<br className= "block sm:hidden" />
+                  and emerging markets make better <br className= "block sm:hidden" />
+                  location-based decisions.
                 </motion.p>
                 <motion.div
                   initial={{ opacity: 0, y: 40 }}
