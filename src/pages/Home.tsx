@@ -270,8 +270,8 @@ export default function Home() {
                    text-zinc-300
                    "
                   >
-                   We build AI-powered <br className= "block sm:hidden" />
-                   and location-based products.
+                   We build GIS-powered platforms, spatial infrastructure, and AI-driven systems that help governments, enterprises,<br className= "block sm:hidden" />
+                   and emerging markets make better location-based decisions..
                 </motion.p>
                 <motion.div
                   initial={{ opacity: 0, y: 40 }}
@@ -603,8 +603,8 @@ export default function Home() {
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,210,160,0.1)_0%,transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"></div>
                   <img src="/Oscore-3.jpg" alt="Site Plan Georeferencing & Filed Mapping" className="w-full h-full object-cover" />
                 </div>
-                <h3 className="font-display text-xl font-bold text-white group-hover:text-[#00D2A0] transition-colors duration-300 mb-2">Site Plan Georeferencing & Filed Mapping</h3>
-                <p className="text-zinc-400">DLC &mdash; Transformation of CAD site plans to Georeferenced field datasets. .</p>
+                <h3 className="font-display text-xl font-bold text-white group-hover:text-[#00D2A0] transition-colors duration-300 mb-2">Landscape Architecture & Urban Design</h3>
+                <p className="text-zinc-400">DLC &mdash; Site Plan Georeferencing & Field Mapping.</p>
               </motion.a>
 
               <motion.a href="#" variants={fadeUp} className="snap-center shrink-0 w-[85vw] md:w-auto group cursor-pointer block">
@@ -1002,7 +1002,7 @@ export default function Home() {
               className="text-center mb-12 md:mb-16"
             >
               <h2 className="font-display text-3xl md:text-4xl font-bold text-white tracking-tight">
-                <span className="label-glow inline-block">Who are you?</span>
+                <span className="label-glow inline-block">How Can We Help?</span>
               </h2>
             </motion.div>
           </div>
